@@ -34,27 +34,18 @@ Below is Radar speicification given by the project
 
 In a README file, write brief explanations for the following:
 0.   There are couple steps before 2D CFAR process.
-<<<<<<< HEAD
 	a. Run range FFT for beat signal. 
 	b. Reshape the vector into Nr*Nd array.
 	c. Run the FFT on the beat signal along the range bins dimension.
 	d. Normalize the FFT output.
 	e. Take the absolute value of that output.
 	f. Keep one half of the signal.
-=======
-a. Run range FFT for beat signal. 
-b. Reshape the vector into Nr*Nd array.
-c. Run the FFT on the beat signal along the range bins dimension.
-d. Normalize the FFT output.
-e. Take the absolute value of that output.
-f. Keep one half of the signal.
 
->>>>>>> 3d39303... type: Udacity SFND Radar project with git commit message style
-Following plot is a FFT output from the steps mentioned above.
-	![alt text][image1]
+	Following plot is a FFT output from the steps mentioned above.
+     ![alt text][image1]
 
-Raw signal before 2D CRAR process is showing below.
-	![alt text][image2]
+	Raw signal before 2D CRAR process is showing below.
+     ![alt text][image2]
 
 1. Implementation steps for the 2D CFAR process.
 	Please refer to line 181 to 270.
